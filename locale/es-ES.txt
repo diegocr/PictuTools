@@ -1,0 +1,125 @@
+# Locale file for PictuTools
+# Spanish (Castellano) version
+
+menu.pictutools.convert: Convertir
+menuitem.convert.tobmpformat: a formato BMP
+menuitem.convert.tobmpformat.tooltiptext: Convierta imágenes al formato BMP
+menuitem.convert.toepsformat: a formato EPS
+menuitem.convert.toepsformat.tooltiptext: Convierta imágenes al formato EPS
+menuitem.convert.togifformat: a formato GIF
+menuitem.convert.togifformat.tooltiptext: Convierta imágenes al formato GIF
+menuitem.convert.tohdrformat: a formato HDR
+menuitem.convert.tohdrformat.tooltiptext: Convierta imágenes al formato HDR/EXR
+menuitem.convert.toicoformat: a formato ICO
+menuitem.convert.toicoformat.tooltiptext: Convierta imágenes al formato ICO
+menuitem.convert.tojpgformat: a formato JPG
+menuitem.convert.tojpgformat.tooltiptext: Convierta imágenes al formato JPG
+menuitem.convert.topdfformat: a formato PDF
+menuitem.convert.topdfformat.tooltiptext: Convierta imágenes al formato PDF
+menuitem.convert.topngformat: a formato PNG
+menuitem.convert.topngformat.tooltiptext: Convierta imágenes al formato PNG
+menuitem.convert.tosvgformat: a formato SVG
+menuitem.convert.tosvgformat.tooltiptext: Convierta imágenes al formato SVG
+menuitem.convert.totgaformat: a formato TGA
+menuitem.convert.totgaformat.tooltiptext: Convierta imágenes al formato TGA
+menuitem.convert.totiffformat: a formato TIFF
+menuitem.convert.totiffformat.tooltiptext: Convierta imágenes al formato TIFF
+menuitem.convert.towbmpformat: a formato WBMP
+menuitem.convert.towbmpformat.tooltiptext: Convierta imágenes al formato WBMP
+menuitem.convert.towebpformat: a formato WebP
+menuitem.convert.towebpformat.tooltiptext: Convierta imágenes al formato WebP
+menuitem.convert.todatauri: Data URI
+menuitem.convert.todatauri.tooltiptext: Convierta imágenes a formato Data URI (Base64)
+
+menu.pictutools.edit: Editar
+menuitem.edit.befunky: BeFunky
+menuitem.edit.befunky.tooltiptext: BeFunky le permite aplicar efectos, mejorar imágenes, editarlas en linea. Cartoon, sketch, painting, pop art y mucho mas...
+menuitem.edit.drpic: DrPic
+menuitem.edit.drpic.tooltiptext: Recortar, redimensionar, añadir texto, efectos especiales, y hospedar sus imágenes en linea de forma gratuita (Contiene publicidad, diseñado en HTML/JS)
+menuitem.edit.fotoflexer: FotoFlexer
+menuitem.edit.fotoflexer.tooltiptext: FotoFlexer le permite eliminar manchas, cambiar el color de la piel o del pelo, metamorfosis de fotos y mucho mas! 100% gratis (Contiene publicidad)
+menuitem.edit.iaza: Iaza
+menuitem.edit.iaza.tooltiptext: Proporciona distintas utilidades para la conversión y aplicación de efectos con tan solo unos clickeos del raton.
+menuitem.edit.lunapic: LunaPic
+menuitem.edit.lunapic.tooltiptext: Edite sus fotos con este básico pero potente editor en linea (Con publicidad, en HTML)
+menuitem.edit.phixr: Phixr
+menuitem.edit.phixr.tooltiptext: Otro editor en linea que no precisa Flash.
+menuitem.edit.pixenate: Pixenate
+menuitem.edit.pixenate.tooltiptext: Edite sus fotos en linea, rápida y cómodamente - No requiere Flash ni otros plugins.
+menuitem.edit.pixlr: PixLR
+menuitem.edit.pixlr.tooltiptext: Un editor en linea que usa tecnología Flash.
+menuitem.edit.pixlrexpress: PixLR (express)
+menuitem.edit.pixlrexpress.tooltiptext: Un editor en linea que usa tecnología Flash, versión express/básica.
+menuitem.edit.pixlromatic: PixLR (o-matic)
+menuitem.edit.pixlromatic.tooltiptext: Un editor en linea que usa tecnología Flash, esta versión le permite aplicar efectos fácilmente.
+menuitem.edit.sumopainting: SumoPainting
+menuitem.edit.sumopainting.tooltiptext: SumoPaint le permite crear, compartir, y mezclar sus imágenes...
+menuitem.edit.zygomatic: Zygomatic
+menuitem.edit.zygomatic.tooltiptext: HTML-based editor. Resize, filters, sepia, crop, rotate, flip, effects
+menuitem.edit.demotivationalposter: DeMotivational Poster
+menuitem.edit.demotivationalposter.tooltiptext: Meme Generator
+menuitem.edit.pomfme: pomf.me
+menuitem.edit.pomfme.tooltiptext: Captioning tool
+menuitem.edit.ancientlook: Ancient Look
+menuitem.edit.ancientlook.tooltiptext: Haga que sus fotos tengan el aspecto de haber sido realizadas hace décadas.
+menuitem.edit.dynamicdriveoptimizer: DynamicDrive Optimizer
+menuitem.edit.dynamicdriveoptimizer.tooltiptext: Le permite optimizar sus imágenes: gifs, jpgs, y pngs, de modo que carguen lo antes posible en su sitio web.
+menuitem.edit.smushitoptimizer: SmushIt Optimizer
+menuitem.edit.smushitoptimizer.tooltiptext: Smush.it usa técnicas de optimización especificas para imágenes que reducen su tamaño sin comprometer la calidad de las mismas.
+
+menu.pictutools.host: Hospedaje
+menuitem.host.imageshack: ImageShack
+menuitem.host.imageshack.tooltiptext: Aloja la imagen en ImageShack
+menuitem.host.imgur: Imgur
+menuitem.host.imgur.tooltiptext: Aloja la imagen en imgur.com
+menuitem.host.overpic: OverPic
+menuitem.host.overpic.tooltiptext: Aloja la imagen en overpic.net
+menuitem.host.postimage: PostImage
+menuitem.host.postimage.tooltiptext: Aloja la imagen en postimage.org
+
+menu.pictutools.information: Información
+menuitem.information.exifviewer: Visualizador EXIF
+menuitem.information.exifviewer.tooltiptext: Le permite ver la información EXIF de la imagen.
+menuitem.information.metapicz: MetaPicZ
+menuitem.information.metapicz.tooltiptext: Visualizador EXIF y Metadata.
+menuitem.information.httpviewer: HTTP Viewer
+menuitem.information.httpviewer.tooltiptext: Vea exactamente lo que responde el servidor HTTP para esta imagen.
+
+menu.pictutools.share: Compartir
+menuitem.share.addthis: AddThis
+menuitem.share.addthis.tooltiptext: Compartir en cualquiera de las webs que le permite el servicio AddThis
+menuitem.share.facebook: Facebook
+menuitem.share.facebook.tooltiptext: Compartir en Facebook
+menuitem.share.twitter: Twitter
+menuitem.share.twitter.tooltiptext: Compartir en Twitter
+menuitem.share.qrcode: QR Code
+menuitem.share.qrcode.tooltiptext: Obtenga un código QR para la imagen seleccionada.
+
+menu.pictutools.similar: Similar
+menuitem.similar.baidu: Baidu
+menuitem.similar.baidu.tooltiptext: Búsqueda inversa usando el servicio Japones Baidu
+menuitem.similar.cydral: Cydral
+menuitem.similar.cydral.tooltiptext: Búsqueda inversa usando el servicio Cydral
+menuitem.similar.google: Google
+menuitem.similar.google.tooltiptext: Búsqueda inversa usando el servicio de Google Images
+menuitem.similar.tineye: TinEye
+menuitem.similar.tineye.tooltiptext: Búsqueda inversa usando el servicio TinEye
+menuitem.similar.yandex: Yandex
+menuitem.similar.yandex.tooltiptext: Búsqueda inversa usando el servicio Ruso Yandex
+
+menu.pictutools.misc: Otros
+menuitem.misc.decodeqrcode: Descodificar código QR
+menuitem.misc.decodeqrcode.tooltiptext: Le permite descodificar un código de barras tipo 1D o 2D (QR)
+menuitem.misc.i2ocr: i2OCR
+menuitem.misc.i2ocr.tooltiptext: Servicio gratuito de reconocimiento de texto.
+menuitem.misc.whatfontis: WhatFontIs
+menuitem.misc.whatfontis.tooltiptext: Le permite averiguar que tipo de letra se ha usado en una imagen.
+menuitem.misc.whatthefont: WhatTheFont
+menuitem.misc.whatthefont.tooltiptext: Otro servicio que le permite averiguar que tipo de letra se ha usado en una imagen.
+menuitem.misc.whatsitscolor: WhatsItsColor
+menuitem.misc.whatsitscolor.tooltiptext: Encuentre el colo primario y secundario usados en una imagen.
+menuitem.misc.zoomit: ZoomIt
+menuitem.misc.zoomit.tooltiptext: Convierte una imagen al formato Deep Zoom, que le permite de una forma suave y precisa explorarla sin importar su tamaño.
+
+main.invalidfile: Lo siento, este tipo de imagen no está soportado (no pertenece al protocolo http)
+addon.description: Este complemento proporciona acceso rápido a utilidades en-linea para la manipulación de imágenes.

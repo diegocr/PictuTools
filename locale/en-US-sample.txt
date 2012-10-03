@@ -1,0 +1,123 @@
+# Locale file for PictuTools
+
+menu.pictutools.convert: Convert
+menuitem.convert.tobmpformat: to BMP format
+menuitem.convert.tobmpformat.tooltiptext: Convert your image to the BMP format with this free online image converter.
+menuitem.convert.toepsformat: to EPS format
+menuitem.convert.toepsformat.tooltiptext: Convert your image to the EPS format with this free online image converter.
+menuitem.convert.togifformat: to GIF format
+menuitem.convert.togifformat.tooltiptext: Convert your image to the GIF format with this free online image converter.
+menuitem.convert.tohdrformat: to HDR format
+menuitem.convert.tohdrformat.tooltiptext: Convert your image to the HDR/EXR format with this free online image converter.
+menuitem.convert.toicoformat: to ICO format
+menuitem.convert.toicoformat.tooltiptext: Convert your image to the ICO format with this free online image converter.
+menuitem.convert.tojpgformat: to JPG format
+menuitem.convert.tojpgformat.tooltiptext: Convert your image to the JPG format with this free online image converter.
+menuitem.convert.topdfformat: to PDF format
+menuitem.convert.topdfformat.tooltiptext: Convert your image to the PDF format with this free online image converter.
+menuitem.convert.topngformat: to PNG format
+menuitem.convert.topngformat.tooltiptext: Convert your image to the PNG format with this free online image converter.
+menuitem.convert.tosvgformat: to SVG format
+menuitem.convert.tosvgformat.tooltiptext: Convert your image to the SVG format with this free online image converter.
+menuitem.convert.totgaformat: to TGA format
+menuitem.convert.totgaformat.tooltiptext: Convert your image to the TGA format with this free online image converter.
+menuitem.convert.totiffformat: to TIFF format
+menuitem.convert.totiffformat.tooltiptext: Convert your image to the TIFF format with this free online image converter.
+menuitem.convert.towbmpformat: to WBMP format
+menuitem.convert.towbmpformat.tooltiptext: Convert your image to the WBMP format with this free online image converter.
+menuitem.convert.towebpformat: to WebP format
+menuitem.convert.towebpformat.tooltiptext: Convert your image to the WebP format with this free online image converter.
+menuitem.convert.todatauri: to Data URI
+menuitem.convert.todatauri.tooltiptext: Convert your image to Base64 Data URI
+
+menu.pictutools.edit: Edit
+menuitem.edit.befunky: BeFunky
+menuitem.edit.befunky.tooltiptext: BeFunky lets you apply photo effects, enhance, edit pictures and photos online. Cartoon, sketch, painting, pop art and more...
+menuitem.edit.drpic: DrPic
+menuitem.edit.drpic.tooltiptext: Crop, Resize, Add Text, Special Effects, and Host your pictures online for free (with ads, in HTML/JS)
+menuitem.edit.fotoflexer: FotoFlexer
+menuitem.edit.fotoflexer.tooltiptext: FotoFlexer lets you remove blemishes, change skin/hair color, morph photos and more! 100% free (with ads)
+menuitem.edit.iaza: Iaza
+menuitem.edit.iaza.tooltiptext: Provides several conversion and effect tools by just clicking links
+menuitem.edit.lunapic: LunaPic
+menuitem.edit.lunapic.tooltiptext: Edit Your Pictures with this basic but powerful online editor (ads, HTML)
+menuitem.edit.phixr: Phixr
+menuitem.edit.phixr.tooltiptext: Online photo editor with no Flash required
+menuitem.edit.pixenate: Pixenate
+menuitem.edit.pixenate.tooltiptext: Edit photos online, fast and easily - No plugins required.
+menuitem.edit.pixlr: PixLR
+menuitem.edit.pixlr.tooltiptext: Flash-based online image editor.
+menuitem.edit.pixlrexpress: PixLR (express)
+menuitem.edit.pixlrexpress.tooltiptext: Flash-based online image editor, express/basic version
+menuitem.edit.pixlromatic: PixLR (o-matic)
+menuitem.edit.pixlromatic.tooltiptext: Flash-based online image editor which lets you apply different effects easily
+menuitem.edit.sumopainting: SumoPainting
+menuitem.edit.sumopainting.tooltiptext: With SumoPaint you can Create, Share and Remix your Images.
+menuitem.edit.zygomatic: Zygomatic
+menuitem.edit.zygomatic.tooltiptext: HTML-based editor. Resize, filters, sepia, crop, rotate, flip, effects
+menuitem.edit.demotivationalposter: DeMotivational Poster
+menuitem.edit.demotivationalposter.tooltiptext: Meme Generator
+menuitem.edit.pomfme: pomf.me
+menuitem.edit.pomfme.tooltiptext: Captioning tool
+menuitem.edit.ancientlook: Ancient Look
+menuitem.edit.ancientlook.tooltiptext: Makes the image look like very old photographs
+menuitem.edit.dynamicdriveoptimizer: DynamicDrive Optimizer
+menuitem.edit.dynamicdriveoptimizer.tooltiptext: Lets you easily optimize your gifs, animated gifs, jpgs, and pngs, so they load as fast as possible on your site.
+menuitem.edit.smushitoptimizer: SmushIt Optimizer
+menuitem.edit.smushitoptimizer.tooltiptext: Smush.it uses optimization techniques specific to image format to remove unnecessary bytes from image files. It is a "lossless" tool, which means it optimizes the images without changing their look or visual quality.
+
+menu.pictutools.host: Host
+menuitem.host.imageshack: ImageShack
+menuitem.host.imageshack.tooltiptext: Host on ImageShack
+menuitem.host.imgur: Imgur
+menuitem.host.imgur.tooltiptext: Host on imgur.com image hosting
+menuitem.host.overpic: OverPic
+menuitem.host.overpic.tooltiptext: Host on overpic.het image hosting
+menuitem.host.postimage: PostImage
+menuitem.host.postimage.tooltiptext: Host on postimage.org
+
+menu.pictutools.information: Information
+menuitem.information.exifviewer: Exif viewer
+menuitem.information.exifviewer.tooltiptext: View EXIF information for the image
+menuitem.information.metapicz: MetaPicZ
+menuitem.information.metapicz.tooltiptext: Metadata and exif viewer
+menuitem.information.httpviewer: HTTP Viewer
+menuitem.information.httpviewer.tooltiptext: See exactly what an HTTP request returns to your browser
+
+menu.pictutools.share: Share
+menuitem.share.addthis: AddThis
+menuitem.share.addthis.tooltiptext: Share to any of the supported websites by AddThis
+menuitem.share.facebook: Facebook
+menuitem.share.facebook.tooltiptext: Share on Facebook
+menuitem.share.twitter: Twitter
+menuitem.share.twitter.tooltiptext: Tweet this image
+menuitem.share.qrcode: QR Code
+menuitem.share.qrcode.tooltiptext: Obtain a QR code which point to this image.
+
+menu.pictutools.similar: Similar
+menuitem.similar.baidu: Baidu
+menuitem.similar.baidu.tooltiptext: Reverse image search using the Japanesse Baidu Service
+menuitem.similar.cydral: Cydral
+menuitem.similar.cydral.tooltiptext: Reverse image search using Cydral
+menuitem.similar.google: Google
+menuitem.similar.google.tooltiptext: Reverse image search using Google Images
+menuitem.similar.tineye: TinEye
+menuitem.similar.tineye.tooltiptext: Reverse image search using TinEye
+menuitem.similar.yandex: Yandex
+menuitem.similar.yandex.tooltiptext: Reverse image search using the Russian Yandex Service
+
+menu.pictutools.misc: Misc
+menuitem.misc.decodeqrcode: Decode QR Code
+menuitem.misc.decodeqrcode.tooltiptext: Lets you decode a 1D or 2D barcode
+menuitem.misc.i2ocr: i2OCR
+menuitem.misc.i2ocr.tooltiptext: Free online OCR that converts images into editable text.
+menuitem.misc.whatfontis: WhatFontIs
+menuitem.misc.whatfontis.tooltiptext: Send the image to whatfontis.com to identify the font used.
+menuitem.misc.whatthefont: WhatTheFont
+menuitem.misc.whatthefont.tooltiptext: Find what the type of font is used on the image
+menuitem.misc.whatsitscolor: WhatsItsColor
+menuitem.misc.whatsitscolor.tooltiptext: Find the complementary and primary color of the image
+menuitem.misc.zoomit: ZoomIt
+menuitem.misc.zoomit.tooltiptext: Converts your image to the Deep Zoom format, which lets you smoothly and efficiently explore the whole image, no matter how large.
+
+main.invalidfile: Sorry, this is not a supported image file (ie. does not belong to the http protocol)

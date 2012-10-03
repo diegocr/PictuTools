@@ -1,0 +1,125 @@
+# Locale file for PictuTools
+# fr-FR by Dave 'Webinnov'
+
+menu.pictutools.convert: Convertir
+menuitem.convert.tobmpformat: au format BMP
+menuitem.convert.tobmpformat.tooltiptext: Convertissez votre image au format BMP avec ce convertisseur en ligne gratuit.
+menuitem.convert.toepsformat: au format EPS
+menuitem.convert.toepsformat.tooltiptext: Convertissez votre image au format EPS avec ce convertisseur en ligne gratuit.
+menuitem.convert.togifformat: au format GIF
+menuitem.convert.togifformat.tooltiptext: Convertissez votre image au format GIF avec ce convertisseur en ligne gratuit.
+menuitem.convert.tohdrformat: au format HDR
+menuitem.convert.tohdrformat.tooltiptext: Convertissez votre image au format HDR avec ce convertisseur en ligne gratuit.
+menuitem.convert.toicoformat: au format ICO
+menuitem.convert.toicoformat.tooltiptext: Convertissez votre image au format ICO avec ce convertisseur en ligne gratuit.
+menuitem.convert.tojpgformat: au format JPG
+menuitem.convert.tojpgformat.tooltiptext: Convertissez votre image au format JPG avec ce convertisseur en ligne gratuit.
+menuitem.convert.topdfformat: au format PDF
+menuitem.convert.topdfformat.tooltiptext: Convertissez votre image au format PDF avec ce convertisseur en ligne gratuit.
+menuitem.convert.topngformat: au format PNG
+menuitem.convert.topngformat.tooltiptext: Convertissez votre image au format PNG avec ce convertisseur en ligne gratuit.
+menuitem.convert.tosvgformat: au format SVG
+menuitem.convert.tosvgformat.tooltiptext: Convertissez votre image au format SVG avec ce convertisseur en ligne gratuit.
+menuitem.convert.totgaformat: au format TGA
+menuitem.convert.totgaformat.tooltiptext: Convertissez votre image au format TGA avec ce convertisseur en ligne gratuit.
+menuitem.convert.totiffformat: au format TIFF
+menuitem.convert.totiffformat.tooltiptext: Convertissez votre image au format TIFF avec ce convertisseur en ligne gratuit.
+menuitem.convert.towbmpformat: au format WBMP
+menuitem.convert.towbmpformat.tooltiptext: Convertissez votre image au format WBMP avec ce convertisseur en ligne gratuit.
+menuitem.convert.towebpformat: au format WebP
+menuitem.convert.towebpformat.tooltiptext: Convertissez votre image au format WebP avec ce convertisseur en ligne gratuit.
+menuitem.convert.todatauri: aux données URI
+menuitem.convert.todatauri.tooltiptext: Convertissez votre image en base 64 URI de données
+
+menu.pictutools.edit: Editer
+menuitem.edit.befunky: BeFunky
+menuitem.edit.befunky.tooltiptext: BeFunky vous permet d"appliquer des effets, améliorer, éditer des images et des photos en ligne. Dessin animé, dessin, peinture, art pop et plus...
+menuitem.edit.drpic: DrPic
+menuitem.edit.drpic.tooltiptext: Recadrage, redimensionnement, Ajouter du texte, des effets spéciaux, et Hébergez vos images gratuitement en ligne (avec des annonces, en HTML / JS)
+menuitem.edit.fotoflexer: FotoFlexer
+menuitem.edit.fotoflexer.tooltiptext: FotoFlexer vous permet de supprimer les imperfections, changer de peau / couleur des cheveux, des photos morph et plus encore! 100% gratuit (avec publicité)
+menuitem.edit.iaza: Iaza
+menuitem.edit.iaza.tooltiptext: Fournit une conversion à l"aide de  plusieurs outils et d"effets en cliquant simplement sur des liens
+menuitem.edit.lunapic: LunaPic
+menuitem.edit.lunapic.tooltiptext: Modifier vos photos avec cet éditeur de base, mais puissant en ligne (annonces, HTML)
+menuitem.edit.phixr: Phixr
+menuitem.edit.phixr.tooltiptext: Logiciel de retouche photo en ligne sans Flash requis
+menuitem.edit.pixenate: Pixenate
+menuitem.edit.pixenate.tooltiptext: Retouchez vos photos en ligne, rapide et facile - Pas de plug-ins nécessaires.
+menuitem.edit.pixlr: PixLR
+menuitem.edit.pixlr.tooltiptext: Flash-based éditeur d"images en ligne.
+menuitem.edit.pixlrexpress: PixLR (express)
+menuitem.edit.pixlrexpress.tooltiptext: Flash-based éditeur d"images en ligne, express / version de base
+menuitem.edit.pixlromatic: PixLR (o-matic)
+menuitem.edit.pixlromatic.tooltiptext: Flash-based éditeur d"images en ligne qui vous permet d"appliquer différents effets facilement
+menuitem.edit.sumopainting: SumoPainting
+menuitem.edit.sumopainting.tooltiptext: Avec SumoPaint vous pouvez créer, partager et remixer vos images.
+menuitem.edit.zygomatic: Zygomatic
+menuitem.edit.zygomatic.tooltiptext: Éditeur HTML. Redimensionner, filtres, sépia, recadrer, faire pivoter, retourner, effets
+menuitem.edit.demotivationalposter: DeMotivational Poster
+menuitem.edit.demotivationalposter.tooltiptext: Meme Generator
+menuitem.edit.pomfme: pomf.me
+menuitem.edit.pomfme.tooltiptext: Outils de sous-titrage
+menuitem.edit.ancientlook: Ancient Look
+menuitem.edit.ancientlook.tooltiptext: Effet de photographies très anciennes
+menuitem.edit.dynamicdriveoptimizer: DynamicDrive Optimizer
+menuitem.edit.dynamicdriveoptimizer.tooltiptext: Vous permet d"optimiser vos gifs, gifs animés, JPG, et PNG, afin qu"ils se chargent aussi vite que possible sur votre site.
+menuitem.edit.smushitoptimizer: SmushIt Optimizer
+menuitem.edit.smushitoptimizer.tooltiptext: Smush.it utilise des techniques d"optimisation spécifiques au format d"image pour éliminer octets inutiles de fichiers image. Il s"agit d"une "perte" outil, ce qui signifie qu"il optimise les images sans modifier leur apparence ou la qualité visuelle.
+
+menu.pictutools.host: Hote
+menuitem.host.imageshack: ImageShack
+menuitem.host.imageshack.tooltiptext: Hôte sur ImageShack
+menuitem.host.imgur: Imgur
+menuitem.host.imgur.tooltiptext: Hôte sur image imgur.com Hébergement
+menuitem.host.overpic: OverPic
+menuitem.host.overpic.tooltiptext: Hôte sur image overpic.het Hébergement
+menuitem.host.postimage: PostImage
+menuitem.host.postimage.tooltiptext: Hôte sur postimage.org
+
+menu.pictutools.information: Information
+menuitem.information.exifviewer: Exif viewer
+menuitem.information.exifviewer.tooltiptext: Afficher les informations de l"image avec EXIF viewer
+menuitem.information.metapicz: MetaPicZ
+menuitem.information.metapicz.tooltiptext: Métadonnées et Exif Viewer
+menuitem.information.httpviewer: HTTP Viewer
+menuitem.information.httpviewer.tooltiptext: Voir requête HTTP retourner à votre navigateur
+
+menu.pictutools.share: Partager
+menuitem.share.addthis: AddThis
+menuitem.share.addthis.tooltiptext: Partager sur l"un des sites soutenus par AddThis
+menuitem.share.facebook: Facebook
+menuitem.share.facebook.tooltiptext: Partager sur Facebook
+menuitem.share.twitter: Twitter
+menuitem.share.twitter.tooltiptext: Tweeter cette image
+menuitem.share.qrcode: QR Code
+menuitem.share.qrcode.tooltiptext: Obtenir un code QR (code-barres) pour pointer vers cette image.
+
+menu.pictutools.similar: Similaire
+menuitem.similar.baidu: Baidu
+menuitem.similar.baidu.tooltiptext: Rechercher d"autres images similaires en utilisant le service Baidu Japanesse
+menuitem.similar.cydral: Cydral
+menuitem.similar.cydral.tooltiptext: Rechercher d"autres images similaires en utilisant Cydral
+menuitem.similar.google: Google
+menuitem.similar.google.tooltiptext: Rechercher d"autres images similaires en utilisant Google Images
+menuitem.similar.tineye: TinEye
+menuitem.similar.tineye.tooltiptext: Rechercher d"autres images similaires en utilisant TinEye
+menuitem.similar.yandex: Yandex
+menuitem.similar.yandex.tooltiptext: Rechercher d"autres images similaires en utilisant Russian Yandex Service
+
+menu.pictutools.misc: Divers
+menuitem.misc.decodeqrcode: Decode QR Code
+menuitem.misc.decodeqrcode.tooltiptext: Vous permet de décoder un code barre 1D ou 2D
+menuitem.misc.i2ocr: i2OCR
+menuitem.misc.i2ocr.tooltiptext: OCR en ligne gratuit qui permet de convertir des images en texte éditable.
+menuitem.misc.whatfontis: WhatFontIs
+menuitem.misc.whatfontis.tooltiptext: Envoyer votre image sur whatfontis.com pour identifier la police (font) utilisée.
+menuitem.misc.whatthefont: WhatTheFont
+menuitem.misc.whatthefont.tooltiptext: Trouvez le type de police utilisée sur cette image
+menuitem.misc.whatsitscolor: WhatsItsColor
+menuitem.misc.whatsitscolor.tooltiptext: Trouvez la couleur complémentaire et primaire de l"image
+menuitem.misc.zoomit: ZoomIt
+menuitem.misc.zoomit.tooltiptext: Convertit votre image au format Deep Zoom, qui vous permet de découvrir en douceur et efficacement l"ensemble de l"image, peu importe la taille.
+
+main.invalidfile: Désolé, ce fichier image n"est pas pris en charge (ie. ne fait pas partie du protocole http)
+addon.description: Un acces rapide et facile a des outils de manipulation d'images en ligne
