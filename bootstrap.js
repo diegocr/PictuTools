@@ -13,8 +13,7 @@
  * ***** END LICENSE BLOCK ***** */
 
 let {classes: Cc, interfaces: Ci, utils: Cu} = Components,tn,addon;
-
-Cu.import("resource://gre/modules/Services.jsm");
+let { btoa } = Cu.import("resource://gre/modules/Services.jsm");
 
 function rsc(n) 'resource://' + addon.tag + '/' + n;
 
@@ -42,8 +41,11 @@ let spec = [
 			{e:'menuitem',d:{label:'DrPic',tooltiptext:'Crop, Resize, Add Text, Special Effects, and Host your pictures online for free (with ads, in HTML/JS)',url:'http://drpic.com/?fetch=##u'}},
 			{e:'menuitem',d:{label:'FotoFlexer',tooltiptext:'FotoFlexer lets you remove blemishes, change skin/hair color, morph photos and more! 100% free (with ads)',url:'http://fotoflexer.com/API/API_Loader_v1_01.php?ff_image_url=##u'}},
 			{e:'menuitem',d:{label:'Iaza',tooltiptext:'Provides several conversion and effect tools by just clicking links',url:'http://www.iaza.com/xpages/xload.html',ja:'URL=##u'}},
+			// {e:'menuitem',d:{label:'iPiccy',tooltiptext:'iPiccy allows you not only do basic edits: picture crop, rotate and resize but more advanced photo editing like facial touch-up, painting with custom brushes, overlay photos, stickers, add cool frames and apply stunning textures',url:'http://ipiccy.com/uploader/upTemp.php',ja:'f=##u'}},
 			{e:'menuitem',d:{label:'LunaPic',tooltiptext:'Edit Your Pictures with this basic but powerful online editor (ads, HTML)',url:'http://www.lunapic.com/editor/index.php?action=url&url=##u'}},
 			{e:'menuitem',d:{label:'Phixr',tooltiptext:'Online photo editor with no Flash required',url:'http://www.phixr.com/photo/photoupload?pictureurl=##u&picturename=##t'}},
+			{e:'menuitem',d:{label:'PhotoCat',tooltiptext:'Retouch pictures, make photo collages, apply effects, filters, add frames, text, speech bubbles, etc',url:'http://web.photocat.com/edit/?imgURL=##u'}},
+			{e:'menuitem',d:{label:'PicMonkey',tooltiptext:'Touch-up like teeth whitening, blemish fix, insta-thin. Effects like Orton, cross process, color boost (Adds WATERMARKs to photos)',url:'http://www.picmonkey.com/chrome_ext',opt:1}},
 			{e:'menuitem',d:{label:'Pixenate',tooltiptext:'Edit photos online, fast and easily - No plugins required.',url:'http://pixenate.com/index.php?op=&image=##u'}},
 			{e:'menuitem',d:{label:'PixLR',tooltiptext:'Flash-based online image editor.',url:'http://pixlr.com/editor/?s=c&image=##u&title=##t'}},
 			{e:'menuitem',d:{label:'PixLR (express)',tooltiptext:'Flash-based online image editor, express/basic version',url:'http://pixlr.com/express/?s=c&image=##u&title=##t'}},
@@ -51,12 +53,12 @@ let spec = [
 			{e:'menuitem',d:{label:'SumoPainting',tooltiptext:'With SumoPaint you can Create, Share and Remix your Images.',url:'http://www.sumopaint.com/app/?url=##u'}},
 			{e:'menuitem',d:{label:'Zygomatic',tooltiptext:'HTML-based editor. Resize, filters, sepia, crop, rotate, flip, effects',url:'http://www.freeonlinephotoeditor.com/',ja:'url=##u'}},
 			{e:'menuseparator'},
-			{e:'menuitem',d:{label:'DeMotivational Poster',tooltiptext:'Meme Generator',url:'http://www.demotivationalpics.com/diy/autodemotivator.php?urlup=##u'}},
-			{e:'menuitem',d:{label:'pomf.me',tooltiptext:'Captioning tool',url:'http://pomf.me/api/upload_remote?embed&url=##u'}},
-			{e:'menuseparator'},
+			// {e:'menuitem',d:{label:'DeMotivational Poster',tooltiptext:'Meme Generator',url:'http://www.demotivationalpics.com/diy/autodemotivator.php?urlup=##u'}},
+			// {e:'menuseparator'},
 			{e:'menuitem',d:{label:'Ancient Look',tooltiptext:'Makes the image look like very old photographs',url:'http://labs.wanokoto.jp/olds#ended',ja:'data[Old][url]=##u'}},
 			{e:'menuitem',d:{label:'DynamicDrive Optimizer',tooltiptext:'Lets you easily optimize your gifs, animated gifs, jpgs, and pngs, so they load as fast as possible on your site.',url:'http://tools.dynamicdrive.com/imageoptimizer/index.php',ja:'go=optimize&type=same%20as%20input%20type&url=##u'}},
-			{e:'menuitem',d:{label:'SmushIt Optimizer',tooltiptext:'Smush.it uses optimization techniques specific to image format to remove unnecessary bytes from image files. It is a "lossless" tool, which means it optimizes the images without changing their look or visual quality.',url:'http://www.smushit.com/ysmush.it/',ja:'img=##u'}},
+			{e:'menuitem',d:{label:'pomf.me',tooltiptext:'Captioning tool',url:'http://pomf.me/api/upload_remote?embed&url=##u'}},
+			// {e:'menuitem',d:{label:'SmushIt Optimizer',tooltiptext:'Smush.it uses optimization techniques specific to image format to remove unnecessary bytes from image files. It is a "lossless" tool, which means it optimizes the images without changing their look or visual quality.',url:'http://www.smushit.com/ysmush.it/',ja:'img=##u'}},
 		]},
 	{e:'menu',d:{label:'Host'},i:[
 			{e:'menuitem',d:{label:'ImageShack',tooltiptext:'Host on ImageShack',url:'http://post.imageshack.us/transload.php',ja:'key=0ZP1WY24daee3499128782a3aa3fac083c0b089c&url=##u'}},
@@ -79,7 +81,7 @@ let spec = [
 		]},
 	{e:'menu',d:{label:'Similar'},i:[
 			{e:'menuitem',d:{label:'Baidu',tooltiptext:'Reverse image search using the Japanesse Baidu Service',url:'http://stu.baidu.com/i?rt=0&rn=10&ct=1&tn=baiduimage&objurl=##u'}},
-			{e:'menuitem',d:{label:'Cydral',tooltiptext:'Reverse image search using Cydral',url:'http://www.cydral.com/#url=##u'}},
+			// {e:'menuitem',d:{label:'Cydral',tooltiptext:'Reverse image search using Cydral',url:'http://www.cydral.com/#url=##u'}},
 			{e:'menuitem',d:{label:'Google',tooltiptext:'Reverse image search using Google Images',url:'http://www.google.com/searchbyimage?hl=en&safe=off&client=firefox-a&rls=org.mozilla:en-US:official&site=search&image_url=##u'}},
 			{e:'menuitem',d:{label:'TinEye',tooltiptext:'Reverse image search using TinEye',url:'http://www.tineye.com/search?url=##u'}},
 			{e:'menuitem',d:{label:'Yandex',tooltiptext:'Reverse image search using the Russian Yandex Service',url:'http://images.yandex.ru/yandsearch?rpt=imagedups&img_url=##u'}},
@@ -87,7 +89,8 @@ let spec = [
 	{e:'menuseparator'},
 	{e:'menu',d:{label:'Misc'},i:[
 			{e:'menuitem',d:{label:'Decode QR Code',tooltiptext:'Lets you decode a 1D or 2D barcode',url:'http://zxing.org/w/decode?u=##u&full=true'}},
-			{e:'menuitem',d:{label:'i2OCR',tooltiptext:'Free online OCR that converts images into editable text.',url:'http://www.sciweavers.org/free-online-ocr?url=##u#i2ocr_form'}},
+			{e:'menuitem',d:{label:'i2OCR',tooltiptext:'Free online OCR that converts images into editable text.',url:'http://www.i2ocr.com/?url=##u#i2ocr_form'}},
+			{e:'menuitem',d:{label:'NewOCR',tooltiptext:'Free online OCR service that allows to convert images into editable text.',url:'http://www.newocr.com/',ja:'url=##u'}},
 			{e:'menuitem',d:{label:'WhatFontIs',tooltiptext:'Send the image to whatfontis.com to identify the font used.',url:'http://www.whatfontis.com/',ja:'chkk=1&allfonts=3&reverse=0&p=1&file1=##u'}},
 			{e:'menuitem',d:{label:'WhatTheFont',tooltiptext:'Find what the type of font is used on the image',url:'http://www.myfonts.com/WhatTheFont/upload?url=##u'}},
 			{e:'menuitem',d:{label:'WhatsItsColor',tooltiptext:'Find the complementary and primary color of the image',url:'http://whatsitscolor.com/image-color-helper.php',ja:'quicksize=500&Submit=Upload+%26+Process&file1=&url=##u'}},
@@ -111,11 +114,26 @@ function ic(o,n) {
 	}
 }
 
-function lo(a,d) {
+function lo(a,d,e,r) {
 	a.addEventListener("load", function() {
 		a.removeEventListener("load", arguments.callee, true);
-		a.contentWindow.scrollTo(0,4096);
-		a=d=null;
+		let wnd = a.contentWindow;
+		if(~r.indexOf('online-convert.com/')) {
+			wnd.scrollTo(0,4096);
+		} else if(~r.indexOf('picmonkey.com/')) {
+			xhr(e,function(data,xhr) {
+				let mime = Cc["@mozilla.org/mime;1"].getService(Ci.nsIMIMEService);
+				try {
+					mime = mime.getTypeFromExtension(e.replace(/[\?#].*$/,'').replace(/.*\./,'.'));
+				} catch(e) { mime = 'image/png'; }
+				wnd = wnd.wrappedJSObject;
+				let ev = wnd.document.createEvent('Event');
+				ev.initEvent('LoadUrl', true, true);
+				wnd.document.getElementById('editor_url')
+					.innerText = 'data:'+mime+';base64,'+btoa(data);
+				wnd.document.getElementById('editor').dispatchEvent(ev);
+			});
+		}
 	}, true );
 }
 
@@ -149,7 +167,7 @@ function handler(ev) {
 			} else {
 				d=function()b.loadURI(u);
 			}
-			w.setTimeout(function()(d(),o.hasAttribute('opt') && lo(b.getBrowserForTab(t),o)||0),140);
+			w.setTimeout(function()(d(),o.hasAttribute('opt') && lo(b.getBrowserForTab(t),o,l,u)||0),140);
 		} catch(e) {
 			w.alert(e);
 		}
@@ -236,6 +254,38 @@ function attach(domWindow) {
 			attachReady(domWindow);
 		}, false);
 	}
+}
+
+function xhr(url,cb) {
+	let xhr = Cc["@mozilla.org/xmlextras/xmlhttprequest;1"]
+		.createInstance(Ci.nsIXMLHttpRequest);
+	
+	let handler = function(ev) {
+		evf(function(m) xhr.removeEventListener( m, handler, false ));
+		switch(ev.type) {
+			case 'load':
+				if(xhr.status == 200) {
+					let ba = new Uint8Array(xhr.response),
+						tmp = [];
+					for(let i = 0, m = ba.byteLength ; i < m ; ++i ) {
+						tmp.push(String.fromCharCode(ba[i]));
+					}
+					cb(tmp.join(""),xhr,ev);
+					break;
+				}
+			default:
+				cb('',xhr,ev);
+				break;
+		}
+	};
+	
+	let evf = function(f) ['load','error','abort','timeout'].forEach(f);
+		evf(function(m) xhr.addEventListener( m, handler, false ));
+	
+	xhr.mozBackgroundRequest = true;
+	xhr.open('GET', url, true);
+	xhr.responseType = "arraybuffer";
+	xhr.send(null);
 }
 
 function detach(window) {

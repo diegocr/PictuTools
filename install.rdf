@@ -4,7 +4,7 @@
     <em:id>{41e00859-3a98-4c4c-8292-2de820be3ffa}</em:id>
     <em:type>2</em:type>
     <em:name>PictuTools</em:name>
-    <em:version>2.2.1</em:version>
+    <em:version>2.3a1</em:version>
     <em:creator>Diego Casorran &lt;dcasorran@gmail.com&gt;</em:creator>
     <em:description>Quick and easy access to online image manipulation tools.</em:description>
 	<em:bootstrap>true</em:bootstrap>
@@ -12,8 +12,8 @@
       <Description>
 	    <!-- Firefox -->
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-        <em:minVersion>8.0a1</em:minVersion>
-        <em:maxVersion>18.0a1</em:maxVersion>
+        <em:minVersion>8.0</em:minVersion>
+        <em:maxVersion>24.0</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>
