@@ -121,7 +121,7 @@ function lo(a,d,e,r) {
 		if(~r.indexOf('online-convert.com/')) {
 			wnd.scrollTo(0,4096);
 		} else if(~r.indexOf('picmonkey.com/')) {
-			xhr(e,function(data,xhr) {
+			xhr(e,function(data) {
 				let mime = Cc["@mozilla.org/mime;1"].getService(Ci.nsIMIMEService);
 				try {
 					mime = mime.getTypeFromExtension(e.replace(/[\?#].*$/,'').replace(/.*\./,'.'));
@@ -185,6 +185,15 @@ function attachReady(window) {
 			for(let x in a)e.setAttribute(x,a[x]);
 		return e;
 	}
+	let hserv = Services.prefs.getCharPref('extensions.pictutools.hserv');
+	if(hserv) {
+		try {
+			hserv = new RegExp('^('+hserv.replace(',','|','g')+')$','i');
+		} catch(e) {
+			Cu.reportError(e);
+			hserv = null;
+		}
+	}
 	// let localeStrings = [];
 	function u(i,m) {
 		let o;
@@ -204,6 +213,9 @@ function attachReady(window) {
 				i.d.tooltiptext = _(base + '.tooltiptext') || i.d.tooltiptext;
 				if(!i.d.tooltiptext) delete i.d.tooltiptext;
 			}
+			
+			if(hserv && hserv.test(i.d.label))
+				return null;
 		}
 		m.appendChild(o=e(i.e,i.d));
 		switch(i.e) {
@@ -340,6 +352,9 @@ function setup(data) {
 	let io = Services.io;
 	
 	(addon = data).tag = data.name.toLowerCase().replace(/[^\w]/g,'');
+	
+	if(!Services.prefs.getPrefType('extensions.pictutools.hserv'))
+		Services.prefs.setCharPref('extensions.pictutools.hserv','');
 	
 	io.getProtocolHandler("resource")
 		.QueryInterface(Ci.nsIResProtocolHandler)

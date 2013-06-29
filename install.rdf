@@ -4,7 +4,7 @@
     <em:id>{41e00859-3a98-4c4c-8292-2de820be3ffa}</em:id>
     <em:type>2</em:type>
     <em:name>PictuTools</em:name>
-    <em:version>2.3a1</em:version>
+    <em:version>2.3</em:version>
     <em:creator>Diego Casorran &lt;dcasorran@gmail.com&gt;</em:creator>
     <em:description>Quick and easy access to online image manipulation tools.</em:description>
 	<em:bootstrap>true</em:bootstrap>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<setting pref="extensions.pictutools.hserv" type="string" title="Hidden Services:">
+		Comma-separated list of services to hide from the content-menu. Re-enable the add-on for changes to take effect.
+	</setting>
+</vbox>
