@@ -114,8 +114,12 @@ let _ = (function(scope) {
 	
 	let oJar;
 	function JAROpen() {
-		return oJar || let (zip = Cc["@mozilla.org/libjar/zip-reader;1"]
-			.createInstance(Ci.nsIZipReader)) (zip.open(getXPIFile()), oJar = zip);
+		if (!oJar) {
+			let zip = Cc["@mozilla.org/libjar/zip-reader;1"].createInstance(Ci.nsIZipReader);
+			zip.open(getXPIFile());
+			oJar = zip;
+		}
+		return oJar;
 	}
 	
 	lFile = getLocaleFile(lDefault);

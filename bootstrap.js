@@ -101,7 +101,8 @@ let spec = [
 
 function ic(o,n) {
 	try {
-		let u = Services.io.newURI(n.substr(0,let (x = n.indexOf('##')) ++x || n.length),null,null);
+		let x = (n.indexOf('##') + 1) || n.length;
+		let u = Services.io.newURI(n.substr(0,x),null,null);
 		o.addEventListener('error',function() {
 			this.setAttribute('image',u?u.prePath + '/favicon.ico':rsc('icon.png'));
 			u = null;
